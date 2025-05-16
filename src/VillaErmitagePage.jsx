@@ -3,7 +3,7 @@ import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
 import { Phone, MapPin, Mail, Check } from "lucide-react";
 import { motion } from "framer-motion";
-import logo from "/images/logo-group1vest.png";
+
 
 // Fotos en /public/images/hermitage/
 const images = [
@@ -39,7 +39,7 @@ export default function VillaErmitagePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/90" />
 
         <img
-          src={logo}
+          src="/images/logo-group1vest.png"
           alt="Group 1Vest"
           className="absolute top-6 left-6 w-32 md:w-40 drop-shadow-lg"
         />
